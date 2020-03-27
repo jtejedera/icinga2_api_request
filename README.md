@@ -2,28 +2,24 @@
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
+## Project configuration
+First, add a new user to Icinga2 API and a new Icingaweb2 user.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Change Icinga2 address and API credentials in Node.js Backend:
+Icinga2 server address                          -   Line 10 ./utilities/utilities.js
+Icinga2 API username/password                   -   Line 12 ./utilities/utilities.js
 
-### How do I get set up? ###
+Change Icinga2 address and icingaweb2 credentials in Node.js Backend:
+Icingaweb2 username                             -   Line 9 ./routes/api.js
+Icingaweb2 password                             -   Line 10 ./routes/api.js
+Icingaweb2 address                              -   Line 14 ./routes/api.js
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+## Project setup
+```
+npm install
+```
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### Compiles and hot-reloads for development
+```
+nodemon server
+```
