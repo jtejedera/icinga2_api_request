@@ -2,7 +2,7 @@
 
 This project is a simple example of how to collect Icinga2 events StateChanges from the API.
 
-It's built with Node.js, Express.js and Socket.io ready to send realtime updates to a Frontend app. (https://bitbucket.org/jtejedera/icinga2_events_frontend)
+It's built with Node.js, Express.js and Socket.io ready to send realtime updates to a Frontend app. (https://github.com/jtejedera/icinga2_events_frontend)
 
 ## Project configuration
 * First, add a new user to Icinga2 API and a new Icingaweb2 user.
